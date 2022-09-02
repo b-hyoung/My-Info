@@ -51,7 +51,7 @@ function Home() {
                 <div className='skill'>
                     <div className='list_skill'><RiVipDiamondFill />&nbsp;Skill</div>
                     <ul>
-                        <li>HTML / CSS</li>
+                        <li>HTML / CSS3</li>
                         <li>JavaScript</li>
                         <li>JQuery</li>
                         <li>React , Redux</li>
