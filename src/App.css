@@ -1,5 +1,14 @@
 .App {
   text-align: center;
+  height: 1920px;
+  background-color: #DCE2F0;
+  color: #50586C;
+
+}
+
+a{
+  outline: none;
+  cursor: pointer;
 }
 
 .App-logo {
