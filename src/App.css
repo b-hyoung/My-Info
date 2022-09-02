@@ -10,6 +10,9 @@ a{
   outline: none;
   cursor: pointer;
 }
+a:hover{
+  color: rgb(107, 163, 185);
+}
 
 .App-logo {
   height: 40vmin;
