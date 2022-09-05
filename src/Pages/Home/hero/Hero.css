@@ -55,6 +55,7 @@
 @keyframes head {
     0% {
         width: 0px;
+        height: 50px;
     }
 
     100% {
@@ -123,9 +124,11 @@ svg {
     text-align: left;
 }
 
+
 .list_skill {
     display: flex;
     flex-direction: row;
+    font-weight: 700;
 }
 
 .list_skill svg {

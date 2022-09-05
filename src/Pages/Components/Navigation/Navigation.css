@@ -1,15 +1,16 @@
 .Nav{
     position: fixed;
-    right: 5%;
+    right: 2%;
     top: 40%;
 }
 .Nav_mokcha{
-    text-align: left;
+    text-align: center;
     font-size: 22px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-weight: 600;
 }
 .Nav_mokcha > div{
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     cursor: pointer;    
 }

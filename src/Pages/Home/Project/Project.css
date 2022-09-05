@@ -1,0 +1,79 @@
+.Project {
+    height: max-content;
+    position: relative;
+    text-align: left;
+}
+.Project header{
+    padding-left: 4rem;
+    overflow: hidden;
+    animation: head 2s 1;
+    width: 420px;
+    text-align: left;
+}
+.Project header h1{
+    font-size: 40px;
+}   
+.Project_info{
+    padding:3rem 4rem;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+.Project_info .Project_Eri , .Project_ReS , .Project_Clo{
+    width: 420px;
+    min-width: 420px;
+    height: 700px;
+    padding: 1rem 2rem;
+    padding-bottom: 3rem;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-right: 50px;
+    position: relative;
+
+}
+.Project_info .Project_Eriwa{
+    width: 1000px;
+    height: 700px;
+    padding: 1rem 2rem;
+    padding-bottom: 3rem;
+    border: 1px solid black;
+    background-color: #DCE2F0;
+    border-radius: 20px;
+    margin-right: 50px;
+    position: absolute;
+    z-index: 1;
+} 
+
+.Project_info .Project_Eri div , .Project_ReS div , .Project_Clo div{
+    font-size: 25px;
+}
+.hugi{
+    font-size: 21px !important;
+    font-weight: 500;
+}
+.Eri_Btn{
+    width:85%;
+    position: absolute;
+    bottom:20px;
+    font-size: 25px;
+    border-radius: 20px;
+    border: none;
+    line-height: 2rem;
+    color: #FCF6F5;
+    background-color: #7b9acc;
+}
+.Project_list{
+    display: flex;
+    flex-direction: column;
+}
+.Project_list > div {
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid black;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    padding-top: 10px;
+}

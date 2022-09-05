@@ -8,9 +8,9 @@ function Navigation() {
     <div className='Nav'>
       <div><IoIosArrowUp style={{fontSize:"20px" , fontWeight:"700"}} /></div>
       <div className='Nav_mokcha'>
-        <div>1. 소개</div>
-        <div>2. 프로젝트</div>
-        <div>3. 자기소개서</div>
+        <div>소개</div>
+        <div>프로젝트</div>
+        <div>자기소개서</div>
       </div>
       <div><IoIosArrowDown style={{fontSize:"20px" , fontWeight:"700"}} /></div>
     </div>

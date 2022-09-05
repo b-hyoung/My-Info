@@ -41,9 +41,9 @@ function Hero() {
                     </div>
                     <div className='profile_Link'>
                         <ul>
-                            <li><MdEmail /> Email :&nbsp; <a onClick={() => handleClickClipBoard()}>{Email}</a></li>
-                            <li><FaBookReader /> Velog :&nbsp; <a onClick={() => window.open(velogUrl, ['_blank'])}>{velogUrl}</a></li>
                             <li><FaGithub /> Github :&nbsp;<a onClick={() => window.open(githunUrl, ['_blank'])}>{githunUrl}</a></li>
+                            <li><FaBookReader /> Velog :&nbsp; <a onClick={() => window.open(velogUrl, ['_blank'])}>{velogUrl}</a></li>
+                            <li><MdEmail /> Email :&nbsp; <a onClick={() => handleClickClipBoard()}>{Email}</a></li>
                             <li><BsPhone /> PhonNum :&nbsp;<a >010-1234-5678</a></li>
                         </ul>
                     </div>
@@ -63,7 +63,7 @@ function Hero() {
                     <div className='tool'>
                         <div className='list_skill'><BsTools />&nbsp;Tool</div>
                         <ul>
-                            <li>VsCode</li>
+                            <li>Vs Code</li>
                             <li>Notion</li>
                         </ul>
                     </div>

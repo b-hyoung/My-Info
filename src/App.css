@@ -1,8 +1,9 @@
 .App {
   text-align: center;
-  height: 1920px;
+  height: 2500px;
   background-color: #DCE2F0;
   color: #50586C;
+  overflow-x: hidden;
 
 }
 
