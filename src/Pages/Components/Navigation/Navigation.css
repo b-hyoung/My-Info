@@ -1,7 +1,8 @@
 .Nav{
     position: fixed;
-    right: 2%;
+    right: 30px;
     top: 40%;
+    z-index: 1 !important;
 }
 .Nav_mokcha{
     text-align: center;

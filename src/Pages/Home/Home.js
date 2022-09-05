@@ -15,8 +15,12 @@ function Home() {
     return (
         <div>
             <Navigation />
-            <Hero />
-            <Project />
+            <div style={{marginBottom:"100px"}}>
+                <Hero />
+            </div>
+            <div>
+                <Project />
+            </div>
         </div>
     )
 }
