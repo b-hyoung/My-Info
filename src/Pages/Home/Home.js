@@ -22,7 +22,7 @@ function Home() {
                 <Project ref={project} />
             </div>
             <div id='MyInfo'>
-                <MyInfo />
+                <MyInfo  />
             </div>
         </div>
     )
