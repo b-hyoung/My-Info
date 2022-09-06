@@ -4,7 +4,7 @@ import { MdReceipt } from '@react-icons/all-files/md/MdReceipt'
 import { FaGithub } from '@react-icons/all-files/fa/FaGithub'
 
 
-function Project() {
+function Project({ref}) {
 
     const gitEriwa = 'https://github.com/djgnfj-svg/view'
     const gitReSee = 'https://github.com/djgnfj-svg/Resee_project'
@@ -30,7 +30,7 @@ function Project() {
 
 
     return (
-        <div className='Project'>
+        <div className='Project' ref={ref}>
             <header>
                 <h1><MdReceipt />프로젝트 경험</h1>
             </header>

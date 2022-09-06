@@ -83,9 +83,10 @@
 }
 
 .hero-main .profile_info .profile_Link {
-    width: 80%;
+    width: 30%;
     text-align: left;
-    margin: auto;
+    margin-top: 50px;
+    margin-left: -20px;
     z-index: 1;
 }
 

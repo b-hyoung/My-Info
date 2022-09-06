@@ -1,25 +1,28 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { useNavigate } from 'react-router-dom'
 import Navigation from '../Components/Navigation/Navigation'
-import Hero from './hero/Hero'
+import Hero from './Section/hero/Hero'
 import './Home.css'
-import Project from './Project/Project'
+import Project from './Section/Project/Project'
+import MyInfo from './Section/MyInfo/MyInfo'
 
 function Home() {
 
-  
-
     const navigate = useNavigate("")
+    const project = useRef(null)
 
 
     return (
         <div>
-            <Navigation />
+            <Navigation ref={project} />
             <div style={{marginBottom:"100px"}}>
-                <Hero />
+                <Hero  />
             </div>
-            <div>
-                <Project />
+            <div id='project'>
+                <Project ref={project} />
+            </div>
+            <div id='MyInfo'>
+                <MyInfo />
             </div>
         </div>
     )

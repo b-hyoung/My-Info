@@ -1,0 +1,22 @@
+.my_info {
+    height: max-content;
+    position: relative;
+    text-align: left;
+    padding: 5rem 8rem;
+}
+.info_list{
+    padding: 2rem 4rem;
+
+}
+.info_list > div{
+    width: 1300px;
+    height: 250px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+}
+.info_detail{
+    font-size: 23px;
+    padding: 1rem 2rem;
+}
