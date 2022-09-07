@@ -20,6 +20,7 @@
     overflow: hidden;
     animation: head 2s 1;
     width: max-content;
+    min-width: 500px;
 }
 
 .hero-main header h1 {

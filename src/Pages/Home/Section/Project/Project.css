@@ -2,7 +2,6 @@
     height: max-content;
     position: relative;
     text-align: left;
-    padding-top: 2rem;
 }
 .Project header{
     padding-left: 4rem;
@@ -22,10 +21,10 @@
     flex-direction: row;
 }
 .Project_info .Project_Eri , .Project_ReS , .Project_Clo{
-    width: 420px;
+    width: max-content;
     min-width: 420px;
     height: max-content;
-    min-height: 750px;
+    min-height: 810px;
     padding: 1rem 2rem;
     padding-bottom: 3rem;
     border: 1px solid rgb(148, 148, 148);
