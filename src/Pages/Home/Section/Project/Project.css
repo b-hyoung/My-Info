@@ -25,7 +25,7 @@
     width: 420px;
     min-width: 420px;
     height: max-content;
-    min-height: 780px;
+    min-height: 750px;
     padding: 1rem 2rem;
     padding-bottom: 3rem;
     border: 1px solid rgb(148, 148, 148);
@@ -36,7 +36,7 @@
 }
 .Project_info .Project_Eriwa{
     width: max-content;
-    min-width: 1050px;
+    min-width: 1200px;
     height:max-content;
     min-height: 790px;
     overflow-y: hidden;
@@ -82,7 +82,7 @@
 .Project_list{
     display: flex;
     flex-direction: column;
-    margin-left: 70px;
+    margin-left: 220px;
 }
 .Project_list > div {
     width: 200px;
