@@ -15,7 +15,7 @@ function Home() {
     return (
         <div className='home'>
             <Navigation ref={project} />
-            <div id="hero" style={{marginBottom:"100px"}}>
+            <div id="hero">
                 <Hero  />
             </div>
             <div id='project'>

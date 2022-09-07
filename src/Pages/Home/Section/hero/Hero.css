@@ -19,11 +19,11 @@
     padding: 0rem 14rem;
     overflow: hidden;
     animation: head 2s 1;
-    width: 420px;
+    width: max-content;
 }
 
 .hero-main header h1 {
-    width: 420px;
+    width: 500px;
     height: 150px;
     font-size: 30px;
     word-spacing: 1.5px;

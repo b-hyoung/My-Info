@@ -15,7 +15,7 @@ function Hero() {
 
     const Email = 'youqlrqod@gmail.com'
     const velogUrl = 'https://velog.io/@h-young'
-    const githunUrl = 'https://www.githun/b-hyoung'
+    const githunUrl = 'https://www.github/b-hyoung'
 
 
     const handleClickClipBoard = async () => {
@@ -57,22 +57,22 @@ function Hero() {
                             <li>JQuery</li>
                             <li>React , Redux</li>
                             <li>TypeScript / Study ..ing</li>
-                            <li>AWS</li>
+                            <li>AWS ( S3 배포 )</li>
                         </ul>
                     </div>
                     <div className='tool'>
                         <div className='list_skill'><BsTools />&nbsp;Tool</div>
                         <ul>
-                            <li>Vs Code</li>
+                            <li>VS Code</li>
                             <li>Notion</li>
                         </ul>
                     </div>
                     <div className='project'>
                         <div className='list_skill'><MdReceipt />&nbsp;Project</div>
                         <ul>
-                            <li>Eriwa</li>
-                            <li>ReSee</li>
                             <li>Clover</li>
+                            <li>ReSee</li>
+                            <li>Eriwa</li>
                         </ul>
                     </div>
                 </div>

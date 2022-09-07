@@ -35,8 +35,10 @@
 
 }
 .Project_info .Project_Eriwa{
-    width: 1020px;
-    height: 700px;
+    width: max-content;
+    min-width: 1050px;
+    height:max-content;
+    min-height: 790px;
     overflow-y: hidden;
     padding: 1rem 2rem;
     padding-bottom: 3rem;
