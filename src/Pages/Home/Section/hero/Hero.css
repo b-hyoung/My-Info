@@ -16,7 +16,7 @@
 }
 
 .hero-main header {
-    padding: 3rem 14rem;
+    padding: 0rem 14rem;
     overflow: hidden;
     animation: head 2s 1;
     width: 420px;
@@ -116,7 +116,7 @@ svg {
 .profile_skill .skill,
 .tool,
 .project {
-    width: 30%;
+    width: 400px;
     width: border 1px solid black;
     display: flex;
     flex-direction: column;
@@ -130,6 +130,7 @@ svg {
     display: flex;
     flex-direction: row;
     font-weight: 700;
+    width: max-content;
 }
 
 .list_skill svg {
@@ -139,4 +140,7 @@ svg {
 
 .profile_skill ul {
     line-height: 1.5em;
+}
+.profile_skill ul li{
+    width: max-content;
 }

@@ -24,7 +24,8 @@
 .Project_info .Project_Eri , .Project_ReS , .Project_Clo{
     width: 420px;
     min-width: 420px;
-    height: 700px;
+    height: max-content;
+    min-height: 780px;
     padding: 1rem 2rem;
     padding-bottom: 3rem;
     border: 1px solid rgb(148, 148, 148);

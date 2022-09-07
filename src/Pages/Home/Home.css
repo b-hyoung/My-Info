@@ -1,6 +1,15 @@
 #MyInfo{
     height: max-content;
+    transform: scale(0.9);
 }
 #project{
     height: 1050px;
+    transform: scale(0.9);
+}
+#hero {
+    transform: scale(0.9);
+}
+.home{
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
